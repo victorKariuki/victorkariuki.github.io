@@ -42,9 +42,10 @@
       <div class="don-footer">
         <p><small>
             Copyright &copy;
+            <span id="year"></span>
             <script>
-              document.write(new Date().getFullYear());
-            </script> All rights reserved | This Site is made with
+              document.getElementById("year").innerText = (new Date().getFullYear());
+            </script>All rights reserved | This Site is made with
             <i class="icon-heart" aria-hidden="true"></i> by <a href="https://breviamtechnologies/"
               target="_blank">Victor Kariuki</a>
             </span> <span> Images: <a href="http://nothingtochance.co/" target="_blank">nothingtochance.co</a></span>
